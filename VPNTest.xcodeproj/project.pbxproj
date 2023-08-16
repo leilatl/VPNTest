@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8F20A62A8BB33E003920A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20A52A8BB33E003920A0 /* AppDelegate.swift */; };
+		CE8F20A82A8BB33E003920A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20A72A8BB33E003920A0 /* SceneDelegate.swift */; };
+		CE8F20AA2A8BB33E003920A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20A92A8BB33E003920A0 /* ViewController.swift */; };
+		CE8F20AF2A8BB340003920A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20AE2A8BB340003920A0 /* Assets.xcassets */; };
+		CE8F20B22A8BB340003920A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20B02A8BB340003920A0 /* LaunchScreen.storyboard */; };
+		CE8F20BB2A8BB409003920A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE8F20BA2A8BB409003920A0 /* SnapKit */; };
+		CE8F20BD2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20BC2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf */; };
+		CE8F20BF2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20BE2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf */; };
+		CE8F20C52A8C2402003920A0 /* IndicatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20C42A8C2402003920A0 /* IndicatorModel.swift */; };
+		CE8F20C72A8C2495003920A0 /* IndicatorServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */; };
+		CE8F20CB2A8C2626003920A0 /* IndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */; };
+		CE8F20CD2A8C263C003920A0 /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20CC2A8C263C003920A0 /* UIHelpers.swift */; };
+		CE8F20CF2A8C36BC003920A0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20CE2A8C36BC003920A0 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE8F20A22A8BB33E003920A0 /* VPNTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8F20A52A8BB33E003920A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8F20A72A8BB33E003920A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE8F20A92A8BB33E003920A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE8F20AE2A8BB340003920A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8F20B12A8BB340003920A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8F20B32A8BB340003920A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8F20BC2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PathwayGothicOne-Regular.ttf"; path = "../../../../Downloads/Pathway_Gothic_One/PathwayGothicOne-Regular.ttf"; sourceTree = "<group>"; };
+		CE8F20BE2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Petrona-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		CE8F20C42A8C2402003920A0 /* IndicatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorModel.swift; sourceTree = "<group>"; };
+		CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorServer.swift; sourceTree = "<group>"; };
+		CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorPresenter.swift; sourceTree = "<group>"; };
+		CE8F20CC2A8C263C003920A0 /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
+		CE8F20CE2A8C36BC003920A0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8F209F2A8BB33E003920A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8F20BB2A8BB409003920A0 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8F20992A8BB33E003920A0 = {
+			isa = PBXGroup;
+			children = (
+				CE8F20BE2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf */,
+				CE8F20BC2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf */,
+				CE8F20A42A8BB33E003920A0 /* VPNTest */,
+				CE8F20A32A8BB33E003920A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8F20A32A8BB33E003920A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20A22A8BB33E003920A0 /* VPNTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8F20A42A8BB33E003920A0 /* VPNTest */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20C32A8C233D003920A0 /* Presenter */,
+				CE8F20C22A8C2338003920A0 /* View */,
+				CE8F20C12A8C2327003920A0 /* Model */,
+				CE8F20C02A8C2314003920A0 /* App */,
+				CE8F20B32A8BB340003920A0 /* Info.plist */,
+				CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */,
+				CE8F20CC2A8C263C003920A0 /* UIHelpers.swift */,
+			);
+			path = VPNTest;
+			sourceTree = "<group>";
+		};
+		CE8F20C02A8C2314003920A0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20B02A8BB340003920A0 /* LaunchScreen.storyboard */,
+				CE8F20AE2A8BB340003920A0 /* Assets.xcassets */,
+				CE8F20A52A8BB33E003920A0 /* AppDelegate.swift */,
+				CE8F20A72A8BB33E003920A0 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE8F20C12A8C2327003920A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20C42A8C2402003920A0 /* IndicatorModel.swift */,
+				CE8F20CE2A8C36BC003920A0 /* ViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8F20C22A8C2338003920A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20A92A8BB33E003920A0 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE8F20C32A8C233D003920A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8F20A12A8BB33E003920A0 /* VPNTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8F20B62A8BB340003920A0 /* Build configuration list for PBXNativeTarget "VPNTest" */;
+			buildPhases = (
+				CE8F209E2A8BB33E003920A0 /* Sources */,
+				CE8F209F2A8BB33E003920A0 /* Frameworks */,
+				CE8F20A02A8BB33E003920A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNTest;
+			packageProductDependencies = (
+				CE8F20BA2A8BB409003920A0 /* SnapKit */,
+			);
+			productName = VPNTest;
+			productReference = CE8F20A22A8BB33E003920A0 /* VPNTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8F209A2A8BB33E003920A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CE8F20A12A8BB33E003920A0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CE8F209D2A8BB33E003920A0 /* Build configuration list for PBXProject "VPNTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8F20992A8BB33E003920A0;
+			packageReferences = (
+				CE8F20B92A8BB409003920A0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = CE8F20A32A8BB33E003920A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8F20A12A8BB33E003920A0 /* VPNTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8F20A02A8BB33E003920A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8F20B22A8BB340003920A0 /* LaunchScreen.storyboard in Resources */,
+				CE8F20BF2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf in Resources */,
+				CE8F20AF2A8BB340003920A0 /* Assets.xcassets in Resources */,
+				CE8F20BD2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8F209E2A8BB33E003920A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8F20C72A8C2495003920A0 /* IndicatorServer.swift in Sources */,
+				CE8F20AA2A8BB33E003920A0 /* ViewController.swift in Sources */,
+				CE8F20CB2A8C2626003920A0 /* IndicatorPresenter.swift in Sources */,
+				CE8F20CD2A8C263C003920A0 /* UIHelpers.swift in Sources */,
+				CE8F20C52A8C2402003920A0 /* IndicatorModel.swift in Sources */,
+				CE8F20A62A8BB33E003920A0 /* AppDelegate.swift in Sources */,
+				CE8F20CF2A8C36BC003920A0 /* ViewModel.swift in Sources */,
+				CE8F20A82A8BB33E003920A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE8F20B02A8BB340003920A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8F20B12A8BB340003920A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8F20B42A8BB340003920A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8F20B52A8BB340003920A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8F20B72A8BB340003920A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPNTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leila.VPNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8F20B82A8BB340003920A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPNTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leila.VPNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8F209D2A8BB33E003920A0 /* Build configuration list for PBXProject "VPNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8F20B42A8BB340003920A0 /* Debug */,
+				CE8F20B52A8BB340003920A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8F20B62A8BB340003920A0 /* Build configuration list for PBXNativeTarget "VPNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8F20B72A8BB340003920A0 /* Debug */,
+				CE8F20B82A8BB340003920A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE8F20B92A8BB409003920A0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE8F20BA2A8BB409003920A0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE8F20B92A8BB409003920A0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE8F209A2A8BB33E003920A0 /* Project object */;
+}
