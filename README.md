@@ -15,8 +15,9 @@ SnapKit
 
 ## Запись работы приложения
 [https://drive.google.com/file/d/1k93y3DVQgLxlMsJRGlISMabJgOOsrMdP/view?usp=share_link](https://drive.google.com/file/d/1RclZ5iJ9uZctX1NsxJOSyxWM_6zWS-c6/view?usp=drive_link)
-![image](https://github.com/leilatl/GeoAtlasTestTask/assets/46998891/840257e4-e689-4203-a796-aed075c6899c) 
-![image](https://github.com/leilatl/GeoAtlasTestTask/assets/46998891/7e3df8b3-13fa-4867-b3fb-d83885c9c2af)
+![image](https://github.com/leilatl/VPNTest/assets/46998891/be6d759c-66f5-4e46-ade4-4faea32e0842)
+
 
 ## Figma
 https://www.figma.com/file/EzXwQXjmbPBlBCOFoggABE/ShadeGuard-VPN---S-V-Test?node-id=12%3A23964&mode=dev 
+![image](https://github.com/leilatl/VPNTest/assets/46998891/adb818e4-9866-4ea1-b069-5e71f36af195)
