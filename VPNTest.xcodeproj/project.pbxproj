@@ -13,13 +13,13 @@
 		CE8F20AF2A8BB340003920A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20AE2A8BB340003920A0 /* Assets.xcassets */; };
 		CE8F20B22A8BB340003920A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20B02A8BB340003920A0 /* LaunchScreen.storyboard */; };
 		CE8F20BB2A8BB409003920A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE8F20BA2A8BB409003920A0 /* SnapKit */; };
-		CE8F20BD2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20BC2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf */; };
 		CE8F20BF2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20BE2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf */; };
 		CE8F20C52A8C2402003920A0 /* IndicatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20C42A8C2402003920A0 /* IndicatorModel.swift */; };
 		CE8F20C72A8C2495003920A0 /* IndicatorServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */; };
 		CE8F20CB2A8C2626003920A0 /* IndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */; };
 		CE8F20CD2A8C263C003920A0 /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20CC2A8C263C003920A0 /* UIHelpers.swift */; };
 		CE8F20CF2A8C36BC003920A0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F20CE2A8C36BC003920A0 /* ViewModel.swift */; };
+		CE8F20D22A8C5865003920A0 /* PathwayGothicOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8F20D12A8C5752003920A0 /* PathwayGothicOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +30,13 @@
 		CE8F20AE2A8BB340003920A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8F20B12A8BB340003920A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8F20B32A8BB340003920A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE8F20BC2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PathwayGothicOne-Regular.ttf"; path = "../../../../Downloads/Pathway_Gothic_One/PathwayGothicOne-Regular.ttf"; sourceTree = "<group>"; };
 		CE8F20BE2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Petrona-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		CE8F20C42A8C2402003920A0 /* IndicatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorModel.swift; sourceTree = "<group>"; };
 		CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorServer.swift; sourceTree = "<group>"; };
 		CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorPresenter.swift; sourceTree = "<group>"; };
 		CE8F20CC2A8C263C003920A0 /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
 		CE8F20CE2A8C36BC003920A0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CE8F20D12A8C5752003920A0 /* PathwayGothicOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PathwayGothicOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,6 @@
 		CE8F20992A8BB33E003920A0 = {
 			isa = PBXGroup;
 			children = (
-				CE8F20BE2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf */,
-				CE8F20BC2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf */,
 				CE8F20A42A8BB33E003920A0 /* VPNTest */,
 				CE8F20A32A8BB33E003920A0 /* Products */,
 			);
@@ -72,13 +70,12 @@
 		CE8F20A42A8BB33E003920A0 /* VPNTest */ = {
 			isa = PBXGroup;
 			children = (
+				CE8F20D02A8C574B003920A0 /* Fonts */,
 				CE8F20C32A8C233D003920A0 /* Presenter */,
 				CE8F20C22A8C2338003920A0 /* View */,
 				CE8F20C12A8C2327003920A0 /* Model */,
 				CE8F20C02A8C2314003920A0 /* App */,
 				CE8F20B32A8BB340003920A0 /* Info.plist */,
-				CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */,
-				CE8F20CC2A8C263C003920A0 /* UIHelpers.swift */,
 			);
 			path = VPNTest;
 			sourceTree = "<group>";
@@ -106,6 +103,7 @@
 		CE8F20C22A8C2338003920A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE8F20CC2A8C263C003920A0 /* UIHelpers.swift */,
 				CE8F20A92A8BB33E003920A0 /* ViewController.swift */,
 			);
 			path = View;
@@ -114,9 +112,19 @@
 		CE8F20C32A8C233D003920A0 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */,
 				CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */,
 			);
 			name = Presenter;
+			sourceTree = "<group>";
+		};
+		CE8F20D02A8C574B003920A0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20D12A8C5752003920A0 /* PathwayGothicOne-Regular.ttf */,
+				CE8F20BE2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8F20B22A8BB340003920A0 /* LaunchScreen.storyboard in Resources */,
+				CE8F20D22A8C5865003920A0 /* PathwayGothicOne-Regular.ttf in Resources */,
 				CE8F20BF2A8BB5C3003920A0 /* Petrona-VariableFont_wght.ttf in Resources */,
 				CE8F20AF2A8BB340003920A0 /* Assets.xcassets in Resources */,
-				CE8F20BD2A8BB443003920A0 /* PathwayGothicOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
