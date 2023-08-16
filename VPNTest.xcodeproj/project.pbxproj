@@ -51,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8493412A8C5ECA001D3AAB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */,
+				CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		CE8F20992A8BB33E003920A0 = {
 			isa = PBXGroup;
 			children = (
@@ -70,8 +79,8 @@
 		CE8F20A42A8BB33E003920A0 /* VPNTest */ = {
 			isa = PBXGroup;
 			children = (
+				CE8493412A8C5ECA001D3AAB /* Presenter */,
 				CE8F20D02A8C574B003920A0 /* Fonts */,
-				CE8F20C32A8C233D003920A0 /* Presenter */,
 				CE8F20C22A8C2338003920A0 /* View */,
 				CE8F20C12A8C2327003920A0 /* Model */,
 				CE8F20C02A8C2314003920A0 /* App */,
@@ -107,15 +116,6 @@
 				CE8F20A92A8BB33E003920A0 /* ViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		CE8F20C32A8C233D003920A0 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				CE8F20C62A8C2495003920A0 /* IndicatorServer.swift */,
-				CE8F20CA2A8C2626003920A0 /* IndicatorPresenter.swift */,
-			);
-			name = Presenter;
 			sourceTree = "<group>";
 		};
 		CE8F20D02A8C574B003920A0 /* Fonts */ = {
